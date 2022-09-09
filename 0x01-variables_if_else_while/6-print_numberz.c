@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Print all single digit numbers of base 10 starting from 0
  * the use of char is not allowed
@@ -10,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 58; i++)
 	{
 	putchar(i);
 	}
