@@ -1,12 +1,10 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 /**
-* main - This is the entry point
+* main - Print the alphabet in lowercase
 *
 * Return: Always returns 0 (success)
 */
-int main(void)
+void print_alphabet(void)
 {
 	int a;
 
