@@ -6,8 +6,8 @@
 */
 void more_numbers(void)
 {
-	int c;
 	int l;
+	int c;
 
 	for (l = 0; l < 10; l++)
 	{
@@ -15,8 +15,8 @@ void more_numbers(void)
 		{
 			if (c >= 10)
 				_putchar((c / 10) + 48);
-				_putchar((c % 10) + 48);
+			_putchar((c % 10) + 48);
 		}
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
