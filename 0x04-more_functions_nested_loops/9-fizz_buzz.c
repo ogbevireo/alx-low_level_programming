@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - prints 1 to 100, fizz for 3, buzz for 5, fizzbuzz for multiples of 3, 5
+* main - prints 1-100, fizz for 3, buzz for 5, fizzbuzz for multiples of 3, 5
 *
 * Return: Always 0
 *
@@ -25,7 +25,7 @@ int main(void)
 		{
 			printf(" Fizz");
 		}
-		else 
+		else
 		{
 			printf(" %d", i);
 		}
