@@ -9,9 +9,9 @@ void more_numbers(void)
 	int c;
 	int l;
 
-	for (l = 0; l <= 9; l++)
+	for (l = 0; l < 10; l++)
 	{
-		for (c = 0; c <= 14; c++)
+		for (c = 0; c < 15; c++)
 		{
 			if (c >= 10)
 				_putchar((c / 10) + 48);
