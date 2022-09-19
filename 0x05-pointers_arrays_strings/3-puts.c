@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_puts - prints a string followed by a new line
+ * _puts - prints a string followed by a new line
  * @str: input
  * Return: no return
  */
@@ -10,7 +10,7 @@ void _puts(char *str)
 {
 	int count = 0;
 
-	while (cout >= 0)
+	while (count >= 0)
 	{
 		if (str[count] == '\0')
 		{
