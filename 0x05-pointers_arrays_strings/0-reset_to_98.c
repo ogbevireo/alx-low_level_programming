@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * main - a function takes a pointer to an int and updates the value
