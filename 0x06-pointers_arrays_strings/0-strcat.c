@@ -2,13 +2,14 @@
 
 /**
  * _strcat - this function concatenates two strings
- * @ptr: this will point to the new string
- * @char: this will define the string array
+ * @src: this will be the string that will be concatenated to the 2nd string
+ * @dest: this will store the resultant string after the copy
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
-	int count = 0; count2 = 0;
+	int count = 0;
+	int count2 = 0;
 
 	while (*(dest + count) != '\0')
 	{
@@ -17,7 +18,7 @@ char *_strcat(char *dest, char *src)
 	while (count2 >= 0)
 	{
 		*(dest + count) = *(src + count2);
-		if(*(src + count2) == '\0');
+		if (*(src + count2) == '\0')
 			break;
 		count++;
 		count2++;
