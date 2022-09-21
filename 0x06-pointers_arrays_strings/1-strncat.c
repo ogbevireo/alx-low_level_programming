@@ -2,13 +2,15 @@
 
 /**
  * _strncat - this function concatenates two strings while using n bytes
- * @ptr: this will point to the new string
- * @char: this will define the string array
+ * @dest: this will store the values concatenated
+ * @src: this will be the string that will be added to the 2nd
+ * @n: the n bytes
  * Return: 0
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int count = 0; count2 = 0;
+	int count = 0;
+	int count2 = 0;
 
 	while (*(dest + count) != '\0')
 	{
@@ -17,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (count2 < n)
 	{
 		*(dest + count) = *(src + count2);
-		if(*(src + count2) == '\0');
+		if (*(src + count2) == '\0')
 			break;
 		count++;
 		count2++;
