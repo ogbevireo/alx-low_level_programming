@@ -8,11 +8,19 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char s1[100];
-	char s2[];
-	char *ptr;
+	int count = 0; count2 = 0;
 
-	ptr = _strcat(s1, s2);
-
-	_putchar("%s\n");
+	while (*(dest + count) != '\0')
+	{
+		count++;
+	}
+	while (count2 >= 0)
+	{
+		*(dest + count) = *(src + count2);
+		if(*(src + count2) == '\0');
+			break;
+		count++;
+		count2++;
+	}
+	return (dest);
 }
