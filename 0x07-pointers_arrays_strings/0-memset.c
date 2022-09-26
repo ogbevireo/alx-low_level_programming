@@ -1,8 +1,9 @@
 #include <main.h>
 /**
- * _memtest - fills memory with a constant byte n
+ * _memset - fills memory with a constant byte n
  * @s: memory area
  * @n: bytes to be filled
+ * @b: constant byte
  * Return: pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
