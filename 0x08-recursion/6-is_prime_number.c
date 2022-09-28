@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime_number - find a prime number
+ * is_prime - find a prime number
  * @n: input number
  * @c: iterator
  * Return: 1 if n is a prime number. 0 if n is not a prime number
@@ -31,7 +31,3 @@ int is_prime_number(int n)
 		return (0);
 	return (is_prime(n, 2));
 }
-
-
- 
-
